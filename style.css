@@ -1,0 +1,46 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:  hsl(212, 45%, 89%);
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+.container{
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+    width: 280px; /* Adjust the desired width */
+    height: 400px; /* Adjust the desired height */
+    padding: 30px 30px 40px 30px;
+    margin: 50px 40px 40px 500px;
+}
+.image img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+}
+.text{
+    color: hsl(218, 44%, 22%);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+.text2{
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+}
+.attribution { 
+    color:black;
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+/* RESPONSIVE RULES */
+@media screen and (max-width: 669px) {
+    .container{
+        padding: 30px 30px 40px 30px;
+        margin: 50px 40px 40px 80px;
+    }
+}
